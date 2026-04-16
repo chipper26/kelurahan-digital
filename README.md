@@ -33,11 +33,35 @@ kelurahan-digital/
 
 ---
 
-## 👥 Pembagian Tim
+## 👥 Pembagian Kerja Tim
 
-### 🎨 Frontend Developer
+Project ini dikerjakan oleh 4 divisi utama dengan masing-masing 2 orang per tim.
 
-Fokus pada tampilan dan user interface.
+---
+
+### 🎨 UI/UX Designer (2 Orang)
+
+Fokus pada desain tampilan dan pengalaman pengguna.
+
+**Tugas:**
+
+* Mendesain tampilan sistem di Figma:
+
+  * Landing Page
+  * Dashboard Admin
+  * Portal Warga
+* Menentukan:
+
+  * Warna (color palette)
+  * Font (typography)
+  * Layout & struktur halaman
+* Memberikan guideline desain ke tim frontend
+
+---
+
+### 💻 Frontend Developer (2 Orang)
+
+Fokus pada tampilan website berdasarkan desain UI/UX.
 
 **Area kerja:**
 
@@ -46,17 +70,22 @@ Fokus pada tampilan dan user interface.
 
 **Tugas:**
 
-* Mengubah desain dari Figma menjadi HTML/CSS/JS
+* Mengubah desain Figma menjadi HTML, CSS, dan JavaScript
 * Membuat halaman:
 
-  * Landing Page (`views/public`)
-  * Dashboard Admin (`views/admin`)
-  * Halaman Warga (`views/warga`)
-* Membuat komponen reusable (navbar, footer, dll)
+  * `views/public/` → Landing Page
+  * `views/admin/` → Dashboard Admin
+  * `views/warga/` → Portal Warga
+* Membuat komponen reusable:
+
+  * Navbar
+  * Footer
+  * Section layout
+* Menyesuaikan tampilan agar responsive
 
 ---
 
-### ⚙️ Backend Developer
+### ⚙️ Backend Developer (2 Orang)
 
 Fokus pada logika sistem dan pengolahan data.
 
@@ -71,31 +100,47 @@ Fokus pada logika sistem dan pengolahan data.
 * Membuat controller untuk mengatur alur aplikasi
 * Menghubungkan data ke view
 * Mengelola database (CRUD)
-* Menyiapkan sistem pengajuan surat
+* Membuat sistem pengajuan surat:
+
+  * Input data warga
+  * Penyimpanan data
+  * Validasi oleh admin
+* Menyiapkan koneksi database
 
 ---
 
-### 🎯 UI/UX Designer
+### 📝 Dokumentasi & Laporan (2 Orang)
 
-Fokus pada desain tampilan dan pengalaman pengguna.
+Fokus pada pencatatan proses dan pembuatan laporan KKN.
 
 **Tugas:**
 
-* Mendesain tampilan di Figma:
+* Mendokumentasikan kegiatan KKN:
+
+  * Foto kegiatan tim
+  * Proses pengerjaan sistem
+* Mengambil screenshot sistem:
 
   * Landing Page
   * Dashboard Admin
   * Portal Warga
-* Menentukan warna, font, dan layout
+* Menyusun laporan project:
+
+  * Latar belakang
+  * Tujuan
+  * Proses pembuatan sistem
+  * Hasil sistem
+* Membuat panduan penggunaan (user guide)
 
 ---
 
-## 🔄 Workflow Tim
+## 🔄 Alur Kerja Tim
 
 1. UI/UX membuat desain di Figma
-2. Frontend slicing desain ke HTML/CSS
-3. Backend menyiapkan logic dan database
-4. Integrasi frontend + backend
+2. Frontend mengubah desain menjadi tampilan web
+3. Backend membuat sistem dan database
+4. Integrasi frontend dan backend
+5. Dokumentasi mencatat proses dan hasil sistem
 
 ---
 
@@ -117,11 +162,12 @@ Fokus pada desain tampilan dan pengalaman pengguna.
 
 ---
 
-## 📌 Catatan
+## 📌 Catatan Penting
 
-* Jangan mengubah struktur folder tanpa diskusi tim
-* Gunakan branch `dev` untuk development
-* Setiap fitur dikerjakan dalam branch masing-masing
+* Gunakan struktur folder yang sudah ditentukan
+* Jangan mengubah struktur tanpa diskusi tim
+* Setiap tim fokus pada bagiannya masing-masing
+* Komunikasi antar tim sangat penting untuk kelancaran project
 
 ---
 
