@@ -157,9 +157,9 @@ Fokus pada pencatatan proses dan pembuatan laporan KKN.
 3. Akses di browser:
 
    ```
-👉 http://localhost/kelurahan-digital/public
-👉 http://localhost/kelurahan-digital/public/admin.php
-👉 http://localhost/kelurahan-digital/public/warga.php
+   http://localhost/kelurahan-digital/public
+   http://localhost/kelurahan-digital/public/admin.php
+   http://localhost/kelurahan-digital/public/warga.php
    ```
 
 ---
