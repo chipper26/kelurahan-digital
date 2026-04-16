@@ -1,0 +1,41 @@
+# 🔒 File sensitif
+
+.env
+.env.local
+.env.production
+
+# 📦 Dependency (kalau nanti pakai composer / npm)
+
+vendor/
+node_modules/
+
+# 🧠 Cache / log
+
+*.log
+*.cache
+
+# 💻 Sistem operasi
+
+.DS_Store
+Thumbs.db
+
+# 🧪 File testing / debug
+
+debug.log
+
+# 🗄️ Database lokal (kalau ada export sementara)
+
+*.sql
+
+# 🧾 File sementara
+
+*.tmp
+*.bak
+
+# 🧩 VS Code (opsional, kalau gak mau ke-push setting pribadi)
+
+.vscode/
+
+# 🔐 Config pribadi (kalau nanti ada)
+
+config/local.php
